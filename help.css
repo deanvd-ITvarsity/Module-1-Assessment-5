@@ -1,0 +1,46 @@
+h1 {
+    font-family: fantasy;
+    color: crimson;
+    text-align: center;
+}
+
+th {
+    font-family: fantasy;
+    color: darkblue;
+    background-color: gold;
+    padding: 12px;
+    font-size: larger;
+}
+
+th:hover {
+    color: gold;
+    background-color: darkblue;
+}
+
+td {
+    font-family: fantasy;
+    color: darkblue;
+    background-color: crimson;
+    padding: 12px;
+}
+
+table {
+    border: darkblue;
+    border-style: solid;
+    border-collapse: collapse;
+    border-width: 5px;
+}
+
+.link {
+    color: darkblue;
+    text-decoration: none;
+    font-family: fantasy;
+    font-size: large;
+    background-color: gold;
+    padding: 5px;
+}
+
+.link:hover {
+    color: gold;
+    background-color: darkblue;
+}

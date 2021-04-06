@@ -1,0 +1,24 @@
+h2 {
+    font-family: fantasy;
+    font-size: 100px;
+    color: crimson;
+    text-align: center;
+}
+
+h2:hover {
+    color: darkblue;
+}
+
+.link {
+    color: darkblue;
+    text-decoration: none;
+    font-family: fantasy;
+    font-size: large;
+    background-color: gold;
+    padding: 5px;
+}
+
+.link:hover {
+    color: gold;
+    background-color: darkblue;
+}

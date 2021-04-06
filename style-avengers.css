@@ -1,0 +1,74 @@
+h1 {
+    color: crimson;
+    font-family: fantasy;
+    font-size: 50px;
+    text-align: right;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+h3 {
+    color: blue;
+    font-family: fantasy;
+    font-size: 50px;
+    text-align: right;
+    background-image: url(images/menubar4.jpg);
+    background-repeat: no-repeat;
+    background-size: 250px;
+    background-position-x: 1000px;
+}
+
+div {
+    text-align: right;
+    color: gold;
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    list-style-type: disc;
+}
+
+table {
+    border-color: darkblue;
+    border-style: solid;
+    border-collapse: collapse;
+    margin-left: auto;
+    border-width: 5px;
+}
+
+th {
+    font-family: fantasy;
+    color: darkblue;
+    font-weight: bolder;
+    padding: 5px;
+    background-color: gold;
+}
+
+th:hover {
+    color: gold;
+    background-color: darkblue;
+}
+
+td {
+    font-family: fantasy;
+    background-color: crimson;
+}
+
+.link {
+    color: darkblue;
+    text-decoration: none;
+    font-family: fantasy;
+    font-size: large;
+    background-color: gold;
+    padding: 5px;
+}
+
+.link:hover {
+    color: gold;
+    background-color: darkblue;
+}

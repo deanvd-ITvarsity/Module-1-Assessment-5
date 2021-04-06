@@ -1,0 +1,126 @@
+.gallery {
+    width: 100%;
+}
+
+.heading {
+    font-size: 60px;
+    font-family: sans-serif;
+    color: crimson;
+    font-family: fantasy;
+}
+
+span {
+    display: inline-block;
+    font-weight: bolder;
+    animation: mover 6s infinite;
+}
+
+@keyframes mover {
+    0% {
+        text-shadow: 0 0 30px rgb(221, 14, 14);
+    }
+    50% {
+        text-shadow: 0 0 30px rgb(75, 10, 224);
+        transform: translateY(30px);
+    }
+    100% {
+        text-shadow: 0 0 30px rgb(219, 240, 37);
+    }
+}
+
+span:nth-child(1) {
+    animation-delay: 0.5s;
+    color: crimson;
+}
+
+span:nth-child(2) {
+    animation-delay: 1s;
+    color: darkblue;
+}
+
+span:nth-child(3) {
+    animation-delay: 1.5s;
+    color: gold;
+}
+
+span:nth-child(4) {
+    animation-delay: 2s;
+    color: crimson;
+}
+
+span:nth-child(5) {
+    animation-delay: 2.5s;
+    color: darkblue;
+}
+
+span:nth-child(6) {
+    animation-delay: 3s;
+    color: gold;
+}
+
+span:nth-child(7) {
+    animation-delay: 3.5s;
+    color: crimson;
+}
+
+span:nth-child(8) {
+    animation-delay: 4s;
+    color: darkblue;
+}
+
+span:nth-child(9) {
+    animation-delay: 4.5s;
+    color: gold;
+}
+
+span:nth-child(10) {
+    animation-delay: 5s;
+    color: crimson;
+}
+
+span:nth-child(11) {
+    animation-delay: 5.5s;
+    color: darkblue;
+}
+
+span:nth-child(12) {
+    animation-delay: 6s;
+    color: gold;
+}
+
+#menu {
+    width: 100%;
+    height: 40px;
+    background-color: gold;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#menu a {
+    font-family: fantasy;
+    color: darkblue;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: 800px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#menu a:hover {
+    background-color: darkblue;
+    color: gold;
+    padding-top: 10px;
+}
+
+.spiderman {
+    width: 610px;
+    height: 350px;
+}
+
+.warmachine {
+    position: absolute;
+    top: 1261px;
+    left: 621px;
+    height: 351px;
+    width: 610px;
+}
